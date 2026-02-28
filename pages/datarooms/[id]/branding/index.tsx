@@ -29,7 +29,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Textarea } from "@/components/ui/textarea";
 import { BadgeTooltip } from "@/components/ui/tooltip";
 
-const DEFAULT_BANNER_IMAGE = "/_static/papermark-banner.png";
+const DEFAULT_BANNER_IMAGE = "/_static/khaznah-banner.png";
 
 export default function DataroomBrandPage() {
   const router = useRouter();
@@ -289,7 +289,7 @@ export default function DataroomBrandPage() {
                 linkText="Click here"
                 content="How to customize data room branding?"
                 key="branding"
-                link="https://www.papermark.com/help/article/dataroom-branding"
+                link="https://app.kaznah.com/help/article/dataroom-branding"
               >
                 <CircleHelpIcon className="h-4 w-4 shrink-0 text-muted-foreground hover:text-foreground" />
               </BadgeTooltip>
@@ -787,7 +787,7 @@ export default function DataroomBrandPage() {
                             </svg>
                           </div>
                           <span className="whitespace-normal text-xs text-muted-foreground">
-                            papermark.com/dataroom/...
+                            app.kaznah.com/dataroom/...
                           </span>
                         </div>
                       </div>
@@ -855,7 +855,7 @@ export default function DataroomBrandPage() {
                             </svg>
                           </div>
                           <span className="whitespace-normal text-xs text-muted-foreground">
-                            papermark.com/view/...
+                            app.kaznah.com/view/...
                           </span>
                         </div>
                       </div>
@@ -922,7 +922,7 @@ export default function DataroomBrandPage() {
                             </svg>
                           </div>
                           <span className="whitespace-normal text-xs text-muted-foreground">
-                            papermark.com/view/...
+                            app.kaznah.com/view/...
                           </span>
                         </div>
                       </div>

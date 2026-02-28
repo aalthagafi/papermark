@@ -84,11 +84,11 @@ export default async function handle(
         return res.status(422).json("Invalid domain");
       }
 
-      // Check if domain contains papermark
-      if (sanitizedDomain.toLowerCase().includes("papermark")) {
+      // Check if domain contains khaznah
+      if (sanitizedDomain.toLowerCase().includes("khaznah")) {
         return res
           .status(400)
-          .json({ message: "Domain cannot contain 'papermark'" });
+          .json({ message: "Domain cannot contain 'khaznah'" });
       }
 
       // Check if domain already exists

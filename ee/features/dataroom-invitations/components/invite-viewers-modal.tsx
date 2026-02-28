@@ -351,7 +351,7 @@ export function InviteViewersModal({
             <div>
               <p className="font-medium text-foreground">Email preview</p>
               <p className="text-xs text-muted-foreground">
-                Sent from Papermark system email
+                Sent from Khaznah system email
               </p>
             </div>
 
@@ -380,7 +380,7 @@ export function InviteViewersModal({
                   {dataroomName}
                 </span>{" "}
                 dataroom on{" "}
-                <span className="font-semibold text-foreground">Papermark</span>
+                <span className="font-semibold text-foreground">Khaznah</span>
                 . The invitation was sent by{" "}
                 <span className="font-semibold text-foreground">
                   {senderEmail}

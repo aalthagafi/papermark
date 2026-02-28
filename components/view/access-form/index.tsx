@@ -200,12 +200,12 @@ export default function AccessForm({
           <p className="text-center text-sm tracking-tight text-gray-500">
             This document is securely shared with you using{" "}
             <a
-              href="https://www.papermark.com/home"
+              href="https://app.kaznah.com/home"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium hover:text-gray-600"
             >
-              Papermark
+              Khaznah
             </a>
             .
           </p>

@@ -259,7 +259,7 @@ export default function Branding() {
                 Global Branding
               </h1>
               <p className="text-xs text-muted-foreground sm:text-sm">
-                Customize how your brand appears globally across Papermark
+                Customize how your brand appears globally across Khaznah
                 documents and data rooms your visitors see.
               </p>
             </div>
@@ -303,7 +303,7 @@ export default function Branding() {
                     linkText="Click here"
                     content="How to customize document branding?"
                     key="branding"
-                    link="https://www.papermark.com/help/article/document-branding"
+                    link="https://app.kaznah.com/help/article/document-branding"
                   >
                     <CircleHelpIcon className="h-4 w-4 shrink-0 text-muted-foreground hover:text-foreground" />
                   </BadgeTooltip>
@@ -801,7 +801,7 @@ export default function Branding() {
                               </svg>
                             </div>
                             <span className="whitespace-normal text-xs text-muted-foreground">
-                              papermark.com/view/...
+                              app.kaznah.com/view/...
                             </span>
                           </div>
                         </div>
@@ -869,7 +869,7 @@ export default function Branding() {
                                 </svg>
                               </div>
                               <span className="whitespace-normal text-xs text-muted-foreground">
-                                papermark.com/view/...
+                                app.kaznah.com/view/...
                               </span>
                             </div>
                           </div>
@@ -937,7 +937,7 @@ export default function Branding() {
                               </svg>
                             </div>
                             <span className="whitespace-normal text-xs text-muted-foreground">
-                              papermark.com/view/...
+                              app.kaznah.com/view/...
                             </span>
                           </div>
                         </div>

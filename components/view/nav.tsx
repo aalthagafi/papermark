@@ -34,7 +34,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-import PapermarkSparkle from "../shared/icons/papermark-sparkle";
+import KhaznahSparkle from "../shared/icons/khaznah-sparkle";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -249,11 +249,11 @@ export default function Nav({
                 />
               ) : (
                 <Link
-                  href={`https://www.papermark.com/home?utm_campaign=navbar&utm_medium=navbar&utm_source=papermark-${linkId}`}
+                  href={`https://app.kaznah.com/home?utm_campaign=navbar&utm_medium=navbar&utm_source=khaznah-${linkId}`}
                   target="_blank"
                   className="text-2xl font-bold tracking-tighter text-white"
                 >
-                  Papermark
+                  Khaznah
                 </Link>
               )}
             </div>
@@ -368,7 +368,7 @@ export default function Nav({
                   }}
                   title="Open AI Document Assistant"
                 >
-                  <PapermarkSparkle className="h-5 w-5" />
+                  <KhaznahSparkle className="h-5 w-5" />
                 </Button>
               </Link>
             ) : null}

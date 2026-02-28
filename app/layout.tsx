@@ -9,20 +9,20 @@ const inter = Inter({ subsets: ["latin"] });
 
 const data = {
   description:
-    "Papermark is an open-source document sharing infrastructure. Free alternative to Docsend with custom domain. Manage secure document sharing with real-time analytics.",
-  title: "Papermark | The Open Source DocSend Alternative",
+    "Khaznah is a Saudi-hosted, PDPL-compliant virtual data room and document sharing platform. Share sensitive documents securely within Saudi Arabia.",
+  title: "Khaznah | خزنة - Secure Saudi Document Sharing",
   url: "/",
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.papermark.com"),
+  metadataBase: new URL("https://app.kaznah.com"),
   title: data.title,
   description: data.description,
   openGraph: {
     title: data.title,
     description: data.description,
     url: data.url,
-    siteName: "Papermark",
+    siteName: "Khaznah",
     images: [
       {
         url: "/_static/meta-image.png",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: data.title,
     description: data.description,
-    creator: "@papermarkio",
+    creator: "@kaznahcom",
     images: ["/_static/meta-image.png"],
   },
 };
@@ -51,7 +51,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <PlausibleProvider
-          domain="papermark.io"
+          domain="app.kaznah.com"
           enabled={process.env.NEXT_PUBLIC_VERCEL_ENV === "production"}
         />
       </head>

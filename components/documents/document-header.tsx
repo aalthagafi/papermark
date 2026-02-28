@@ -213,7 +213,7 @@ export default function DocumentHeader({
         }),
         {
           loading: "Activating Assistant...",
-          success: "Papermark Assistant successfully activated.",
+          success: "Khaznah Assistant successfully activated.",
           error: "Activation failed. Please try again.",
         },
       );
@@ -239,7 +239,7 @@ export default function DocumentHeader({
 
     toast.promise(fetchPromise, {
       loading: `${active ? "Activating" : "Deactivating"} Assistant...`,
-      success: `Papermark Assistant successfully ${active ? "activated" : "deactivated"}.`,
+      success: `Khaznah Assistant successfully ${active ? "activated" : "deactivated"}.`,
       error: `${active ? "Activation" : "Deactivation"} failed. Please try again.`,
     });
   };
@@ -602,7 +602,7 @@ export default function DocumentHeader({
                 onClick={() => activateOrRedirectAssistant(prismaDocument)}
                 title="Open AI Assistant"
               >
-                <PapermarkSparkle className="h-5 w-5" />
+                <KhaznahSparkle className="h-5 w-5" />
               </Button>
             )} */}
 
@@ -681,7 +681,7 @@ export default function DocumentHeader({
                           activateOrRedirectAssistant(prismaDocument)
                         }
                       >
-                        <PapermarkSparkle className="mr-2 h-4 w-4" />
+                        <KhaznahSparkle className="mr-2 h-4 w-4" />
                         Open AI Assistant
                       </DropdownMenuItem>
                     </>
